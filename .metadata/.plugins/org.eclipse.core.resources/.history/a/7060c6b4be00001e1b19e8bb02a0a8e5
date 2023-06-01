@@ -1,0 +1,12 @@
+package com.microservices.product.entity;
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "tbl_categories")
+public class Category {
+	@Id
+	private Long id;
+	private String name;
+	
+}

@@ -1,0 +1,9 @@
+package com.microservices.product.entity;
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "tbl_products")
+public class Product {
+
+}
